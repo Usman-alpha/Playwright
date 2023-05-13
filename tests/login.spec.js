@@ -25,7 +25,7 @@ test('Login to Application with valid credentials.', async ({page}) => {
     //Locate and click autonomously on submit button to login
     await page.locator('YOUR_LOCATOR').click();
     //Example
-    await page.locator('button.btn.btn-primary > span.ml-50').click();
+    // await page.locator('button.btn.btn-primary > span.ml-50').click();
 
     // await page.pause();
 
@@ -39,5 +39,5 @@ test('Login to Application with valid credentials.', async ({page}) => {
 
     await page.locator('YOUR_LOCATOR').click();
     //Example
-    await page.locator('button:has-text("Log Out")').click();
+    // await page.locator('button:has-text("Log Out")').click();
 });
