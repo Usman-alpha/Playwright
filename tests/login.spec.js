@@ -40,4 +40,7 @@ test('Login to Application with valid credentials.', async ({page}) => {
     await page.locator('YOUR_LOCATOR').click();
     //Example
     // await page.locator('button:has-text("Log Out")').click();
+
+    //Close the browser
+    await browser.close();
 });
